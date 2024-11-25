@@ -1,0 +1,12 @@
+asynctest
+coverage
+easydict
+flake8
+interrogate
+isort==4.3.21
+openpyxl==3.0.9
+pandas
+pytest
+pyyaml
+xlrd==1.2.0
+yapf

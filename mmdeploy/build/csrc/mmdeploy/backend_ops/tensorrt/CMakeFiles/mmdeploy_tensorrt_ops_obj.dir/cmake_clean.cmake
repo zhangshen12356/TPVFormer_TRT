@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/batched_bev_nms/trt_batched_bev_nms.cpp.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/batched_nms/trt_batched_nms.cpp.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/batched_rotated_nms/trt_batched_rotated_nms.cpp.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/bicubic_interpolate/trt_bicubic_interpolate.cpp.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/bicubic_interpolate/trt_bicubic_interpolate_kernel.cu.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/common_impl/nms/allClassNMS.cu.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/common_impl/nms/allClassRotatedNMS.cu.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/common_impl/nms/batched_nms_kernel.cpp.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/common_impl/nms/gatherNMSOutputs.cu.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/common_impl/nms/kernel.cu.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/common_impl/nms/permuteData.cu.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/common_impl/nms/sortScoresPerClass.cu.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/common_impl/nms/sortScoresPerImage.cu.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/common_impl/trt_cuda_helper.cu.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/deform_conv/trt_deform_conv.cpp.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/deform_conv/trt_deform_conv_kernel.cu.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/gather_topk/gather_topk.cpp.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/gather_topk/gather_topk_kernel.cu.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/grid_priors/trt_grid_priors.cpp.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/grid_priors/trt_grid_priors_kernel.cu.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/grid_sampler/trt_grid_sampler.cpp.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/grid_sampler/trt_grid_sampler_kernel.cu.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/instance_norm/trt_instance_norm.cpp.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/modulated_deform_conv/trt_modulated_deform_conv.cpp.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/modulated_deform_conv/trt_modulated_deform_conv_kernel.cu.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/multi_level_roi_align/trt_multi_level_roi_align.cpp.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/multi_level_roi_align/trt_multi_level_roi_align_kernel.cu.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/multi_level_rotated_roi_align/trt_multi_level_rotated_roi_align.cpp.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/multi_level_rotated_roi_align/trt_multi_level_rotated_roi_align_kernel.cu.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/roi_align/trt_roi_align.cpp.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/roi_align/trt_roi_align_kernel.cu.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/scaled_dot_product_attention/scaled_dot_product_attention.cpp.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/scaled_dot_product_attention/scaled_dot_product_attention_kernel.cu.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/scatternd/trt_scatternd.cpp.o"
+  "CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/scatternd/trt_scatternd_kernel.cu.o"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CUDA CXX)
+  include(CMakeFiles/mmdeploy_tensorrt_ops_obj.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
